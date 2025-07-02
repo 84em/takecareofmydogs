@@ -188,6 +188,14 @@ h1 {
     outline-offset: 2px;
 }
 
+/* Active state for JavaScript interactions */
+.dog-card.active,
+.supplement-item.active {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
 /* Skip navigation link */
 .skip-nav {
     position: absolute;
