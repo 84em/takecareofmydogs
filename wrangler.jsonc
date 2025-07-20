@@ -2,6 +2,6 @@
   "name": "takecareofmydogs",
   "compatibility_date": "2025-06-16",
   "assets": {
-    "directory": "./"
+    "directory": "dist"
   }
 }
